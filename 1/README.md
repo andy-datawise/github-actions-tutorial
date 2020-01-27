@@ -6,7 +6,7 @@
 [here](https://help.github.com/en/actions/automating-your-workflow-with-github-actions)
 
 ### TL;DR
-GitHub Action is a toolkit that aids in the customization of a software development life cycle. In some cases, it will be rather simple to think of GitHub Action as a continuous integration/continuous delivery(deployment) (CI/CD) service equivalent hosted by GitHub itself. A short example of an application would be automating email notifications whenever a merge/pull/whatever request is made.
+GitHub Action is a toolkit that aids in the customization of a software development life cycle. In some cases, it will be rather simple to think of GitHub Action as a continuous integration/continuous delivery(deployment) (CI/CD) service equivalent hosted by GitHub itself. A short example of GitHub Action would be automating email notifications whenever a merge/pull/whatever request is made.
 
 ## Jargons
 
@@ -32,4 +32,5 @@ Steps are building blocks of a job and run sequentially without any specificatio
 
 - Push it along with your repository.
 - GitHub would automatically scan all ```.yml``` and ```.yaml``` files contained within the previously mentioned directory and instantiate runners to hold the workflows configured by the YAML files.
+
 
